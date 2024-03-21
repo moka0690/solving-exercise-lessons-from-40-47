@@ -28,3 +28,15 @@ finalArr = arrOne.concat(arrTwo).sort().reverse()
 // Write One Single Line Of Code
 
 console.log(finalArr); // ["Z", "X", "D", "C", "B", "A"]
+
+
+
+
+let website = "Go";
+
+let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+// Write Your Destructuring Assignment Here
+
+
+console.log(words.pop()[0].slice("ze".length).toLocaleUpperCase()); // ZERO
