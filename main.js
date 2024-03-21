@@ -40,3 +40,23 @@ let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
 
 
 console.log(words.pop()[0].slice("ze".length).toLocaleUpperCase()); // ZERO
+
+
+
+
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+
+if (haystack.indexOf(needle)) {
+    console.log ("Found");
+}
+
+if (haystack.lastIndexOf(needle)) {
+    console.log ("Found");
+    }
+if (haystack.includes(needle)) {
+    console.log ("Found");
+    }
+
+
+// Write 3 Solutions
