@@ -47,14 +47,18 @@ console.log(words.pop()[0].slice("ze".length).toLocaleUpperCase()); // ZERO
 let needle = "JS";
 let haystack = ["PHP", "JS", "Python"];
 
-if (haystack.indexOf(needle)) {
+
+
+if (haystack.includes(needle)!==0) {
+    console.log ("Found");
+    
+}
+    
+if (haystack.indexOf(needle)!==0) {
     console.log ("Found");
 }
 
-if (haystack.lastIndexOf(needle)) {
-    console.log ("Found");
-    }
-if (haystack.includes(needle)) {
+if (haystack.lastIndexOf(needle)!==0) {
     console.log ("Found");
     }
 
