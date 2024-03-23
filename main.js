@@ -61,6 +61,17 @@ if (haystack.indexOf(needle)!==0) {
 if (haystack.lastIndexOf(needle)!==0) {
     console.log ("Found");
     }
-
-
+    
 // Write 3 Solutions
+
+
+
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
+
+allArrs=arr1.concat(arr2).sort().join("").slice("ACDE".length).toLocaleLowerCase()
+
+// allArrs = [arr2.pop(),arr1.pop(),arr2.pop()].sort().join("").toLowerCase();
+// Your Code Here
+console.log(allArrs); // fxy
